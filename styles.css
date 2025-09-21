@@ -1,3 +1,7 @@
+/* Hide the specified header bar */
+div.bg-main-11.bg-gradient-to-r.from-\[\#EA763F\].to-\[\#391C0E\].border-b.font-dmSans.border-zinc-200.dark\:border-zinc-800.w-full {
+  display: none !important;
+}
 /* Hide all potential sidebars */
 div[class*="w-\[20%\]"][class*="block"],
 div[class*="w-\[10%\]"][class*="block"] {
