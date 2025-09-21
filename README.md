@@ -2,6 +2,19 @@
 
 TakeUForward Cleaner is a Chrome extension designed to enhance your experience on the TakeUForward website by removing distractions, cleaning up the UI, and providing a focused environment for learning and practicing coding problems.
 
+
+## Before & After
+
+<p align="center">
+   <b>Before:</b><br>
+   <img src="img/before.png" alt="Before using TakeUForward Cleaner" width="700"/>
+</p>
+
+<p align="center">
+   <b>After:</b><br>
+   <img src="img/after.png" alt="After using TakeUForward Cleaner" width="700"/>
+</p>
+
 ## Features
 
 - **Distraction-Free Experience:** Automatically hides or removes unnecessary elements, ads, and popups from the TakeUForward website.
