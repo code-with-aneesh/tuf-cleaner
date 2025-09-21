@@ -1,4 +1,7 @@
-# TakeUForward Cleaner Chrome Extension
+
+# TakeUForward Cleaner Browser Extension
+
+TakeUForward Cleaner is a browser extension (works on both **Chrome** and **Firefox**) designed to enhance your experience on the TakeUForward website by removing distractions, cleaning up the UI, and providing a focused environment for learning and practicing coding problems.
 
 TakeUForward Cleaner is a Chrome extension designed to enhance your experience on the TakeUForward website by removing distractions, cleaning up the UI, and providing a focused environment for learning and practicing coding problems.
 
@@ -22,17 +25,28 @@ TakeUForward Cleaner is a Chrome extension designed to enhance your experience o
 - **Lightweight & Fast:** Minimal performance impact, ensuring a smooth browsing experience.
 - **Easy to Use:** Installs in seconds and works automatically—no configuration required.
 
+
 ## Installation
 
-1. **Clone or Download the Repository:**
-   ```zsh
-   git clone https://github.com/code-with-aneesh/tuf-cleaner.git
-   cd tuf-cleaner
-   ```
-2. **Load the Extension in Chrome:**
-   - Open `chrome://extensions/` in your browser.
-   - Enable "Developer mode" (top right).
-   - Click "Load unpacked" and select the project folder.
+### 1. Clone or Download the Repository
+```zsh
+git clone https://github.com/code-with-aneesh/tuf-cleaner.git
+cd tuf-cleaner
+```
+
+### 2. Load the Extension in Your Browser
+
+#### For **Google Chrome**
+- Open `chrome://extensions/` in your browser.
+- Enable **Developer mode** (top right).
+- Click **Load unpacked** and select the project folder.
+
+#### For **Mozilla Firefox**
+- Open `about:debugging#/runtime/this-firefox` in your browser.
+- Click **Load Temporary Add-on**.
+- Select the `manifest.json` file from the project folder.
+
+> **Note:** In Firefox, the extension will be removed when you close the browser. For permanent installation, you need to package and sign the extension via the [Firefox Add-ons Developer Hub](https://addons.mozilla.org/en-US/developers/).
 
 ## Usage
 
