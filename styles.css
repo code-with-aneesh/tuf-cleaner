@@ -1,0 +1,13 @@
+/* Hide all potential sidebars */
+div[class*="w-\[20%\]"][class*="block"],
+div[class*="w-\[10%\]"][class*="block"] {
+  display: none !important;
+}
+
+/* Expand all potential main content areas */
+*[class*="md\:w-\[80%\]"],
+*[class*="lg\:w-\[80%\]"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  transition: width 500ms ease-in-out !important;
+}

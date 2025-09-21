@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "TakeUForward Cleaner",
+  "version": "2.0",
+  "description": "Hides sidebars and expands main content on TakeUForward.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://takeuforward.org/*",
+        "https://www.takeuforward.org/*"
+      ],
+      "css": ["styles.css"],
+      "js": ["content_script.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
