@@ -7,8 +7,15 @@ const log = (...args) => {
 
 // --- ROBUST SELECTORS ---
 // These must match the selectors in styles.css
-const SIDEBAR_SELECTOR = 'div[class*="w-\\[20\\%\\]"][class*="block"], div[class*="w-\\[10\\%\\]"][class*="block"]';
+const SIDEBAR_SELECTOR = 'div[class*="w-\\[20\\%\\]"][class*="block"], div[class*="w-\\[10\\%\\]"][class*="block"], div.hidden.lg\\:block.overflow-hidden.transition-all.duration-500.ease-in-out.p-4';
 const MAIN_CONTENT_SELECTOR = '*[class*="md\\:w-\\[80\\%\\]"], *[class*="lg\\:w-\\[80\\%\\]"]';
+
+
+// Remove the sidebar on initial load (for static content)
+document.querySelectorAll('div.hidden.lg\\:block.overflow-hidden.transition-all.duration-500.ease-in-out.p-4').forEach(sb => {
+    sb.style.display = 'none';
+    log('Initial: Hiding sidebar (lg:block variant)', sb);
+});
 
 log('Content script loaded.');
 
