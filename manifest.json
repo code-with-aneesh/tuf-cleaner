@@ -1,10 +1,11 @@
 {
   "manifest_version": 3,
   "name": "TakeUForward Cleaner",
-  "version": "2.0",
+  "version": "1.1",
   "description": "Hides sidebars and expands main content on TakeUForward.",
   "icons": {
-    "128": "icon.png"
+    "16": "icon-16.png",
+    "48": "icon-48.png"
   },
   "content_scripts": [
     {
@@ -17,4 +18,12 @@
       "run_at": "document_start"
     }
   ]
+  ,
+  "browser_specific_settings": {
+  "gecko": {
+    "id": "tuf-cleaner@code-with-aneesh",
+    "strict_min_version": "109.0",
+    "data_collection_permissions": ["none"]
+  }
+}
 }
